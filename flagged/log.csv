@@ -1,0 +1,26 @@
+prompt,output,flag,username,timestamp
+Provide python code of Binary Search.,"'
+Here is an example of binary search in Python:
+```
+def binary_search(arr, x):
+    low = 0
+    high = len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == x:
+            return mid
+        elif arr[mid] < x:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+```
+This function takes an array `arr` and a value `x` as input, and returns the index of `x` in the array if it exists, or `-1` otherwise. The algorithm works by repeatedly dividing the range of indices to be searched in half until the value is found or the range is empty.
+
+Here is an example usage of the function:
+```
+arr = [1, 2, 3, 4, 5, 6]
+x = 3
+print(binary_search(arr, x)) # Output: 2
+```
+In this example, `arr` is a list of integers, and `x` is the value we are searching for in the array. The function returns the index of `x` (which is 2) since it exists in the array.",,,2024-06-15 16:14:42.944885

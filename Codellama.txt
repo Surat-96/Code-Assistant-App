@@ -1,0 +1,10 @@
+Dowload CodeLLAMA:
+
+open - https://ollama.com/ and the download as your os.
+Then run it. If windows just double click .exe file.
+Then open your cmd on that conda environment where you working.
+Then run this code - 'ollama run codellama'
+
+Then create a ModelFile like my modelfile.
+Then run this code - 'ollama create CodingRaja -f Modelfile'
+Then for check - 'ollama run CodingRaja'
