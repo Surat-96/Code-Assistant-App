@@ -8,3 +8,5 @@ Then run this code - 'ollama run codellama'
 Then create a ModelFile like my modelfile.
 Then run this code - 'ollama create CodingRaja -f Modelfile'
 Then for check - 'ollama run CodingRaja'
+
+
